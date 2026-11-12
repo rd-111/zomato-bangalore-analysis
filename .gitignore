@@ -1,0 +1,46 @@
+# Raw dataset and all local processed or dataset-derived outputs
+data/raw/
+data/processed/
+reports/
+
+# Notebook contains dataset-derived summaries and chart references; keep local
+notebooks/
+
+# Python bytecode, environments, and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Test, notebook, and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary files, logs, editors, and OS metadata
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
